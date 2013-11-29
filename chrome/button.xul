@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <?xml-stylesheet type="text/css"href="chrome://custombutton/content/button.css"?> 
+
+<!DOCTYPE overlay >
+  <overlay id="custombutton-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+
+  <script type="application/javascript" src="chrome://custombutton/content/jquery-1.7.2.min.js"/> 
+  <script type="application/javascript" src="chrome://custombutton/content/button.js"/> 
+
+  <!-- Firefox -->
+  <toolbarpalette id="BrowserToolbarPalette"> 
+    <toolbarbutton id="custom-button-1"/> 
+  </toolbarpalette> 
+
+  <!-- button details -->
+  <toolbarbutton id="custom-button-1" 
+    label="KanbanExt" 
+    tooltiptext="Print Ticket" 
+    oncommand="collectIssueData()" 
+    class="toolbarbutton-1 chromeclass-toolbar-additional custombutton" 
+  /> 
+
+</overlay>
