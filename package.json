@@ -2,7 +2,7 @@
     "name": "kanban-addon", 
     "license": "MPL 2.0", 
     "author": "Tobias Cichon, Anton Frick",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "fullName": "YouTrack Kanban Extension", 
     "id": "kanban-ext@traum-ferienwohnungen.de", 
     "description": "Extension um Kanban-Zettel im A6-Format zu drucken"

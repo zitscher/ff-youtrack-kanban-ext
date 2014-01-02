@@ -9,6 +9,7 @@ kanban.methods.collectTicketData = function ()
 	//remove unnecessary
 	jQuery('.header').remove();
 	jQuery('.footer').remove();
+	jQuery('.ring-footer').remove();
 
 	var container = jQuery('.fsi-layout');
 	container.find('#spContainer').remove();
@@ -24,7 +25,7 @@ kanban.methods.collectTicketData = function ()
 
 	sidebar.find('.fsi-property-delimiter').parent().remove();
 
-	var ticket = jQuery('.content:last-of-type');
+	var ticket = jQuery('.content');
 	var description = ticket.find('.center');
 	var info = ticket.find('.subcontent');
 
@@ -122,4 +123,4 @@ kanban.methods.collectTicketData = function ()
 
 	//Druckdialog aufrufen
 	window.content.print();
-	}
+}
